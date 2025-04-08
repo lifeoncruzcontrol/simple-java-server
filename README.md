@@ -1,4 +1,4 @@
-# simple-spring-boot-backend
+# simple-java-server
 
 This is a simple backend with a Java API written with Spring Boot, and a Postgres database
 
