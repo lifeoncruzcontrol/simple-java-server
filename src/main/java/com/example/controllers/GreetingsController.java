@@ -9,4 +9,3 @@ public class GreetingsController {
     public String getGreeting(@PathVariable String greeting){
         return greeting + "!";
     }
-}
