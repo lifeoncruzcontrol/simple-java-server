@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/greetings")
 public class GreetingsController {
     @GetMapping("/{greeting}")
-    public String getGreeting(@PathVariable String greeting){
+    public String getGreeting(@PathVariable String greeting) {
         return greeting + "!";
     }
+}
